@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# Config for Heroku Deploy
+ruby '2.3.1'
+gem 'rails_12factor', group: :production
+gem 'puma',           group: :production
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
